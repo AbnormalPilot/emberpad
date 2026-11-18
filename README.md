@@ -1,4 +1,4 @@
-# coalburn-notes
+# emberpad
 
 A tiny notes app built with Node.js and Express. It uses [coalburn](https://www.npmjs.com/package/coalburn) to restart the server and reload the browser while you work.
 

@@ -1,5 +1,5 @@
 {
-  "name": "coalburn-notes",
+  "name": "emberpad",
   "version": "1.0.0",
   "description": "A tiny Express notes app that uses coalburn for restarts and live reload",
   "type": "module",
