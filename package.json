@@ -1,0 +1,14 @@
+{
+  "name": "coalburn-notes",
+  "version": "1.0.0",
+  "description": "A tiny Express notes app that uses coalburn for restarts and live reload",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "license": "MIT"
+}
