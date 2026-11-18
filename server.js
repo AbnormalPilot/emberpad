@@ -5,6 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
+app.use(express.static(`${import.meta.dirname}/public`));
 
 // shortcut: notes live in memory and vanish on restart; swap in a file or DB if they must persist
 const notes = [];
