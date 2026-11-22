@@ -6,6 +6,8 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.static(`${import.meta.dirname}/public`));
+// Vercel serves public/ from its CDN but sends a bare / to this app, so point it at the page
+app.get('/', (req, res) => res.redirect('/index.html'));
 
 // shortcut: notes live in memory and vanish on restart; swap in a file or DB if they must persist
 const notes = [];
